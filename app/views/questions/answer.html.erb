@@ -1,0 +1,27 @@
+<div class="container mt-5">
+
+<figure class="bg-white p-3 rounded" style="border-left: .25rem solid #a34e78;">
+          <blockquote class="blockquote pb-2">
+            <p>
+              <%= @question %>
+            </p>
+          </blockquote>
+          <figcaption class="blockquote-footer mb-0 font-italic">
+            You
+          </figcaption>
+</figure>
+
+<figure class="bg-white p-3 rounded" style="border-left: .25rem solid #a34e78;">
+          <blockquote class="blockquote pb-2">
+            <p>
+              <%= @answer %>
+            </p>
+          </blockquote>
+          <figcaption class="blockquote-footer mb-0 font-italic">
+            Your coach
+          </figcaption>
+</figure>
+<h4 class="mt-4"><%= link_to "Ask again", ask_path %></h4>
+
+
+</div>
